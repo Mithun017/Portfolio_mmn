@@ -63,3 +63,11 @@
 
 - **vite.config.js**:  
   Configuration file for Vite, the build tool used in this project. It defines how the application is built and served, including settings for plugins, server options, and more.
+
+
+
+
+### Preview of the portfolio
+
+![image](https://github.com/user-attachments/assets/f6781ff9-4414-40d3-b396-aacf9d3b0140)
+![image](https://github.com/user-attachments/assets/793b52e3-69f9-4191-b911-7d10212cf1dc)
