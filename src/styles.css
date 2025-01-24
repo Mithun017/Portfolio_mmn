@@ -1,0 +1,102 @@
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+    color: #004d40;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004d40;
+    padding: 16px;
+    border-radius: 0 0 15px 15px; /* Perfect edge curve at the bottom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10; /* Ensure it stays above other elements */
+}
+
+section {
+    margin: 50px 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #004d40 0%, #00796b 100%);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #004d40;
+}
+
+.education,
+.projects,
+.achievements {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.education:hover,
+.projects:hover,
+.achievements:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-item,
+.project-card,
+.achievement-card {
+    margin: 20px 0;
+    border-left: 4px solid #00796b;
+    padding-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover,
+.project-card:hover,
+.achievement-card:hover {
+    transform: scale(1.02);
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-in-out;
+}
+
+.hidden.show {
+    opacity: 1;
+    transform: translateY(0);
+}
